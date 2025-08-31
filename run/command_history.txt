@@ -1,0 +1,31 @@
+/locate biome minecraft:plains
+/tp @s 819 109 -511
+/tp CinarBayramic @s
+/kill @s
+/tp CinarBayramic
+/time add 6000
+/give @s minecraft:burn_pottery_sherd
+/locate biome minecraft:desert
+/tp @s -1034 63 -2078
+/effect give @e minecraft:glowing
+/effect clear @e
+/tp CinarBayramic @s
+/tp CinarBayramic
+/tp Friedren
+/deop @s
+/deop Player261
+/tp CinarBayramic
+/effect clear @e
+/time set day
+/time set night
+/time set midnight
+/time set day
+/tp CinarBayramic
+/register gamedev gamedev
+/register gamedev1 gamedev1
+/effect give 39490850-53cc-49ec-85da-0a5bcbe705a2 minecraft:glowing
+/effect clear @e
+/tp CinarBayramic
+/team add blues
+/team join blues
+/team modify blues color aqua

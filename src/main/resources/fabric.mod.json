@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "cnutils",
+  "version": "${version}",
+  "name": "CnUtils",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/lenovo/CnUtils"
+  },
+  "license": "MIT",
+  "icon": "assets/cnutils/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.cinarbayramic.cnutils.client.CnUtilsClient"
+    ],
+    "main": [
+      "me.cinarbayramic.cnutils.CnUtils"
+    ]
+  },
+  "mixins": [
+    "cnutils.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+      "fabric-key-binding-api-v1": "*"
+
+  }
+}

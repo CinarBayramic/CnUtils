@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "me/cinarbayramic/cnutils/mixins/LightMixin": {
+      "getLight": "Lnet/minecraft/class_3547;method_15538(J)I"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "me/cinarbayramic/cnutils/mixins/LightMixin": {
+        "getLight": "Lnet/minecraft/class_3547;method_15538(J)I"
+      }
+    }
+  }
+}
