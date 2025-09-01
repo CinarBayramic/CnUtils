@@ -4,7 +4,9 @@
   "package": "me.cinarbayramic.cnutils.mixins",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "LightMixin"
+    "LightMixin",
+    "ZoomMixin",
+    "GlowingMixin"
   ],
   "client": [
   ],

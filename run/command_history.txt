@@ -29,3 +29,20 @@
 /team add blues
 /team join blues
 /team modify blues color aqua
+/setworldspawn
+/locate structure minecraft:village_plains
+/tp @s -704 ~ -2608
+/damage @s
+/damage @s 1
+/damage @s 1 minecraft:arrow
+/damage @s 1 minecraft:arrow at ~ ~ ~
+/give @p iron_pickaxe[minecraft:damage=120] 1
+/tp CinarBayramic @s
+/give @s minecraft:diamond 5
+/give @s raw_iron 51
+/tp c
+/tp CinarBayramic @s
+/time add 5600
+/login
+/login password
+/register password password

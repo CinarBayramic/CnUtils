@@ -53,7 +53,7 @@ highContrastBlockOutline:false
 narratorHotkey:true
 resourcePacks:["fabric"]
 incompatibleResourcePacks:[]
-lastServer:parkourdev.aternos.me
+lastServer:parkourdev.aternos.me:38400
 lang:en_us
 chatVisibility:0
 chatOpacity:1.0
@@ -61,7 +61,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -125,8 +125,10 @@ key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.cnutils.togglefb:key.keyboard.g
 key_key.cnutils.togglern:key.keyboard.n
+key_key.cnutils.zoom:key.keyboard.z
+key_key.cnutils.glowplayers:key.keyboard.v
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

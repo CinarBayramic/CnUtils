@@ -120,6 +120,9 @@ public class HudInfoOverlay implements HudRenderCallback {
     Username = client.getSession().getUsername();
       drawContext.drawText(client.textRenderer, Text.literal("press G to toggle FULLBRIGHT"), (int) 10, (int) 115, 0xFFFFFF, true);
       drawminimap(client,drawContext);
+      if(ClientUtilSettings.Zooming) {
+        renderText(drawContext,client,10,5,"Zooming",0.9);
+      }
       //renderText(drawContext,client,30,30,"hello,world!",0.4);
     }
   }
